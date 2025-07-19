@@ -1,0 +1,47 @@
+@import url(./fonts.css);
+@import url(./globals.css);
+@import url(./grid-s.css);
+
+header {
+  background-color: var(--c-warm-vanilla);
+  padding: 54px 0;
+
+  .row {
+    justify-content: space-between;
+  }
+
+  .col-auto {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+    .links {
+      display: flex;
+      gap: 45px;
+
+      a {
+        color: var(--c-jet-black);
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .button button {
+      color: var(--c-white);
+      font-family: Roboto;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border-radius: 218px;
+      background: var(--c-grape-purple);
+      width: 191px;
+      height: 65px;
+    }
+  }
+}
+
+.hero-section {
+}
