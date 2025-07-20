@@ -291,10 +291,10 @@ header {
         h4 {
           color: var(--c-black);
           font-family: Poppins;
-          font-size: 20px;
           font-style: normal;
           font-weight: 500;
           line-height: normal;
+          font-size: 20px;
         }
 
         h5 {
@@ -364,5 +364,412 @@ header {
   .our-tracks-1 .IdeaLamp,
   .our-tracks-1 .Arrow {
     display: none;
+  }
+}
+
+.premium-learning {
+  .container {
+    .row {
+      .col-auto {
+        .opject {
+          width: 516.953px;
+          height: 644.092px;
+        }
+        h1 {
+          color: #050c26;
+          font-family: Roboto;
+          font-size: 69px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 135%;
+
+          span {
+            color: #ff7426;
+            font-family: Roboto;
+            font-size: 69px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 135%;
+          }
+        }
+
+        .item {
+          .icon {
+            width: 102px;
+            height: 101px;
+            border-radius: 23px;
+            background: #4d2c5e;
+
+            img {
+              width: 52px;
+              height: 52px;
+              justify-items: center;
+            }
+          }
+        }
+
+        .text {
+          h6 {
+            color: #050c26;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 171%;
+          }
+
+          p {
+            color: #8a8a8a;
+            font-family: Roboto;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 171%;
+          }
+        }
+      }
+    }
+
+    .heading-text {
+      text-align: center;
+      padding-bottom: 50px;
+
+      h2 {
+        color: #050c26;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 167.5%;
+        letter-spacing: 0.8px;
+        text-transform: capitalize;
+      }
+
+      p {
+        color: #8a8a8a;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+
+    article {
+      p {
+        color: #acacac;
+        font-family: Roboto;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 156.5%;
+        letter-spacing: 0.38px;
+        padding-bottom: 24px;
+      }
+
+      .person {
+        .icon {
+          img {
+            width: 47px;
+            height: 47px;
+            border-radius: 47px;
+          }
+        }
+
+        .text {
+          h6 {
+            color: #353535;
+            font-family: Roboto;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 156.5%;
+            letter-spacing: 0.34px;
+          }
+
+          p {
+            color: #8e8e8e;
+            font-family: Roboto;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 156.5%;
+            letter-spacing: 0.26px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.our-tracks-2 {
+  margin-top: 210px;
+  margin-bottom: 154px;
+  position: relative;
+
+  .Arrow {
+    position: absolute;
+    top: 0;
+    left: 119px;
+    z-index: -1;
+    transform: rotate(-30deg);
+  }
+
+  .PlanetWithDisk {
+    position: absolute;
+    top: 0;
+    right: 146px;
+    z-index: -1;
+  }
+
+  .heading-text {
+    text-align: center;
+    padding-bottom: 65px;
+    h2 {
+      color: #000;
+      font-family: Jost;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+      text-transform: capitalize;
+    }
+
+    p {
+      color: #8a8a8a;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+
+  article {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border: 1px solid #000;
+    background: #fff;
+
+    img {
+      border-radius: 14px;
+      background: #b17373;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex: 1 0 0;
+      align-self: stretch;
+
+      h5 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      h6 {
+        color: #868686;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      p {
+        color: #acacac;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 137.5%;
+      }
+    }
+
+    .social {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-self: stretch;
+
+      p {
+        color: #ff7426;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      img {
+        width: 38px;
+        height: 38px;
+        background: #f9f9f9;
+      }
+    }
+  }
+}
+
+.subscribe {
+  .container {
+    padding: 0px 48px;
+  }
+
+  .subscribe_frame {
+    width: 100%;
+    min-height: 429px;
+    margin-top: 159px;
+    margin-bottom: 126px;
+    background: url(../img/subscribe-section/subscribe-group.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 15px;
+  }
+
+  .subscribe_text_group {
+    h1 {
+      color: var(--c-white);
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      margin-bottom: 13px;
+    }
+
+    p {
+      color: var(--c-white);
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 41px;
+    }
+  }
+
+  form {
+    width: 100%;
+    max-width: 610px;
+    height: 80px;
+    position: relative;
+
+    input {
+      width: 100%;
+      max-width: 610px;
+      height: 80px;
+      padding-left: 40px;
+      flex-shrink: 0;
+      border-radius: 62px;
+      border: none;
+      background: var(--c-white);
+      color: var(--c-silver-gray);
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      outline: none;
+    }
+
+    button {
+      width: 190px;
+      height: 66px;
+      top: 50%;
+      right: 7px;
+      position: absolute;
+      translate: 0 -50%;
+      color: var(--c-white);
+      font-family: Poppins;
+      font-size: 20px;
+      border-radius: 62px;
+      border: 0px;
+      background: var(--c-burnt-orange);
+    }
+  }
+}
+
+footer {
+  background: var(--c-warm-vanilla);
+
+  .footer_frame {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 65px;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    p {
+      max-width: 318px;
+      color: var(--c-charcoal-gray);
+      text-align: justify;
+      font-family: Roboto;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 31px;
+    }
+  }
+
+  h6 {
+    color: #00052e;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 29px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+
+  a {
+    color: var(--c-charcoal-gray);
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  hr {
+    color: #b7b7b7;
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 25px 15px;
+    text-align: center;
+
+    p {
+      width: 100%;
+      text-align: center;
+      color: var(--c-charcoal-gray);
+      font-family: Roboto;
+      font-size: 19px;
+      font-weight: 400;
+    }
   }
 }
